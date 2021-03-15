@@ -8,10 +8,10 @@ export const fetchCityStart = () => {
   };
 };
 
-export const fetchCitySuccess = cities => {
+export const fetchCitySuccess = city => {
   return {
     type: actionsTypes.FETCH_CITY_SUCCESSFUL,
-    payload: cities,
+    payload: city,
   };
 };
 
