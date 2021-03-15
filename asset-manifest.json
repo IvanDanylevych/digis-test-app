@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/digis-test-app/static/css/main.648900d1.chunk.css",
-    "main.js": "/digis-test-app/static/js/main.6574d633.chunk.js",
-    "main.js.map": "/digis-test-app/static/js/main.6574d633.chunk.js.map",
+    "main.css": "/digis-test-app/static/css/main.51dd59f9.chunk.css",
+    "main.js": "/digis-test-app/static/js/main.48f3ff0b.chunk.js",
+    "main.js.map": "/digis-test-app/static/js/main.48f3ff0b.chunk.js.map",
     "runtime-main.js": "/digis-test-app/static/js/runtime-main.8ea5eaae.js",
     "runtime-main.js.map": "/digis-test-app/static/js/runtime-main.8ea5eaae.js.map",
-    "static/js/2.5cf3618b.chunk.js": "/digis-test-app/static/js/2.5cf3618b.chunk.js",
-    "static/js/2.5cf3618b.chunk.js.map": "/digis-test-app/static/js/2.5cf3618b.chunk.js.map",
+    "static/js/2.ab34078e.chunk.js": "/digis-test-app/static/js/2.ab34078e.chunk.js",
+    "static/js/2.ab34078e.chunk.js.map": "/digis-test-app/static/js/2.ab34078e.chunk.js.map",
     "index.html": "/digis-test-app/index.html",
-    "static/css/main.648900d1.chunk.css.map": "/digis-test-app/static/css/main.648900d1.chunk.css.map",
-    "static/js/2.5cf3618b.chunk.js.LICENSE.txt": "/digis-test-app/static/js/2.5cf3618b.chunk.js.LICENSE.txt"
+    "static/css/main.51dd59f9.chunk.css.map": "/digis-test-app/static/css/main.51dd59f9.chunk.css.map",
+    "static/js/2.ab34078e.chunk.js.LICENSE.txt": "/digis-test-app/static/js/2.ab34078e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8ea5eaae.js",
-    "static/js/2.5cf3618b.chunk.js",
-    "static/css/main.648900d1.chunk.css",
-    "static/js/main.6574d633.chunk.js"
+    "static/js/2.ab34078e.chunk.js",
+    "static/css/main.51dd59f9.chunk.css",
+    "static/js/main.48f3ff0b.chunk.js"
   ]
 }
