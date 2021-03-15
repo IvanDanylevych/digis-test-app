@@ -1,12 +1,13 @@
 import Main from './Main';
 import { connect } from 'react-redux';
-import { weatherSelector, errorSelector } from '../../store/selectors';
+import { weatherSelector, errorSelector, loadingSelector } from '../../store/selectors';
 import { fetchCity } from '../../store/actions/city';
 
 const mapStateToProps = state => {
   return {
     weatherList: weatherSelector(state),
     error: errorSelector(state),
+    loading: loadingSelector(state),
   };
 };
 

@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 
 import styles from './Main.module.scss';
 
-import { Chart, Button, Input } from '../../components';
+import { Chart, Button, Input, Spinner } from '../../components';
 import { formatDataForChart, enumErrorTypes } from '../../utils';
 
-const Main = ({ onFetchCity, weatherList, error }) => {
+const Main = ({ onFetchCity, weatherList, error, loading }) => {
   const [inputValue, setInputValue] = useState('');
 
   const searchButtonHandler = () => {
@@ -18,6 +18,7 @@ const Main = ({ onFetchCity, weatherList, error }) => {
         <Input onChange={setInputValue} />
         <Button onClick={searchButtonHandler} text="Search" />
       </div>
+      {loading && <Spinner />}
       {error && <div className={styles.errorMessage}>{enumErrorTypes[error]}</div>}
       {weatherList && <Chart data={formatDataForChart(weatherList)} />}
     </div>
