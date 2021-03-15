@@ -8,8 +8,8 @@ const CustomTooltip = ({ active, payload, label }) => {
     return (
       <div>
         <p>date: {formatDate(label)}</p>
-        <p>temperature: {payload[0].payload.avg}℃</p>
-        <p>min-max: {`${payload[0].payload.min}-${payload[0].payload.max}℃`}</p>
+        <p>temperature: {payload[0].payload.avg}&#8451;</p>
+        <p>min-max: {`${payload[0].payload.min}-${payload[0].payload.max}`}&#8451;</p>
       </div>
     );
   }
@@ -24,6 +24,6 @@ export const Chart = ({ data }) => (
     <XAxis type="number" />
     <Tooltip position={{ y: 80, x: 600 }} content={<CustomTooltip />} />
     <Legend />
-    <Bar name="temperature ℃" dataKey="avg" fill="#8884d8" />
+    <Bar name="temperature &#8451;" dataKey="avg" fill="#8884d8" />
   </BarChart>
 );
