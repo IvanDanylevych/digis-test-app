@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/digis-test-app/static/css/main.51dd59f9.chunk.css",
-    "main.js": "/digis-test-app/static/js/main.48f3ff0b.chunk.js",
-    "main.js.map": "/digis-test-app/static/js/main.48f3ff0b.chunk.js.map",
+    "main.js": "/digis-test-app/static/js/main.c9fe5dd6.chunk.js",
+    "main.js.map": "/digis-test-app/static/js/main.c9fe5dd6.chunk.js.map",
     "runtime-main.js": "/digis-test-app/static/js/runtime-main.8ea5eaae.js",
     "runtime-main.js.map": "/digis-test-app/static/js/runtime-main.8ea5eaae.js.map",
     "static/js/2.ab34078e.chunk.js": "/digis-test-app/static/js/2.ab34078e.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.8ea5eaae.js",
     "static/js/2.ab34078e.chunk.js",
     "static/css/main.51dd59f9.chunk.css",
-    "static/js/main.48f3ff0b.chunk.js"
+    "static/js/main.c9fe5dd6.chunk.js"
   ]
 }
